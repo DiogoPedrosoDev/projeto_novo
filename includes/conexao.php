@@ -1,7 +1,7 @@
 <?php
 class Database {
     private $host = "localhost";
-    private $db_name = "EventControlDB";
+    private $db_name = "eventcontroldb";
     private $username = "root";
     private $password = "";
     public $conn;

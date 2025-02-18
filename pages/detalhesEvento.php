@@ -38,6 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalhes do Evento - Controle de Eventos</title>
 </head>
+    <link rel="stylesheet" type="text/css" href="../css/gerenciareventos.css">
 <body>
 
     <h2>Cursos Disponíveis para este Evento</h2>

@@ -1,4 +1,4 @@
-<?php
+<?php 
 session_start();
 include('../includes/conexao.php');
 include('../classes/Evento.php');
@@ -28,7 +28,7 @@ $eventos = $evento->listarTodos();
     <!-- Opção para redirecionar para Gerenciar Eventos, visível apenas para administradores -->
     <?php if ($_SESSION['is_admin']): ?>
         <div style="text-align: right;">
-            <a href="gerenciarEventos.php" style="font-size: 16px; color: #333; text-decoration: none;">
+            <a href="gerenciarEventos.php" style="font-size: 16px; color: #333; text-decoration: none; background-color: #f5f5f5; transition: background-color 0.3s ease">
                 <i class="fas fa-cogs"></i> Gerenciar Eventos
             </a>
         </div>
@@ -47,7 +47,7 @@ $eventos = $evento->listarTodos();
             <hr>
         <?php endforeach; ?>
     <?php else: ?>
-        <p>Nenhum evento disponível no momento.</p>
+        <p class="aviso">Nenhum evento disponível no momento.</p>
     <?php endif; ?>
 
     <section class="relatorios">
@@ -58,7 +58,7 @@ $eventos = $evento->listarTodos();
             <li><a href="relatorio_eventos_cursos.php">Relatório de Eventos e Cursos Cadastrados</a></li>
             <li><a href="relatorio_inscricoes.php">Relatório de Inscrições</a></li>
         </ul>
-    <?php endif; ?>
+    <?php endif;  ?>
     </section>
     
 <section class="ranking">
@@ -74,6 +74,11 @@ $eventos = $evento->listarTodos();
 </form>
 
 <a href="editarUsuario.php">Editar Perfil</a>
+
+ <!-- Adicionando o link para a página Sobre -->
+ <nav>
+        <a href="about.php">Sobre</a>
+</nav>
 
 </body>
 </html>

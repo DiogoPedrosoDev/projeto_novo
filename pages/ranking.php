@@ -18,6 +18,7 @@ $ranking = $usuario->obterRanking();
 
 <!DOCTYPE html>
 <html lang="pt-BR">
+<link rel="stylesheet" type="text/css" href="../css/ranking.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,7 +45,7 @@ $ranking = $usuario->obterRanking();
         <?php endforeach; ?>
     </table>
 
-    <a href="index.php">Voltar para a Página Principal</a>
+    <a class="button" href="index.php">Voltar para a Página Principal</a>
 
 </body>
 </html>

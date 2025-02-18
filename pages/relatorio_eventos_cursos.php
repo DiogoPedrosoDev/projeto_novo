@@ -26,6 +26,7 @@ $eventos = $stmt_eventos->fetchAll(PDO::FETCH_ASSOC);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relatório de Eventos e Cursos</title>
 </head>
+<link rel="stylesheet" type="text/css" href="../css/relatorioeventcursos.css">
 <body>
 
     <h2>Relatório de Eventos e Cursos</h2>

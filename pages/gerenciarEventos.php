@@ -75,6 +75,7 @@ $eventos = $evento->listarTodos();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerenciamento de Eventos e Cursos</title>
 </head>
+<link rel="stylesheet" type="text/css" href="../css/gerenciareventos.css">
 <body>
 
     <h2>Gerenciar Eventos</h2>

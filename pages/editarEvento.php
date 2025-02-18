@@ -50,6 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar Evento</title>
 </head>
+<link rel="stylesheet" type="text/css" href="../css/gerenciareventos.css">
 <body>
 
     <h2>Editar Evento</h2>
